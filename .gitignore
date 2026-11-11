@@ -1,0 +1,18 @@
+# Исходные данные 
+data/processed/*.csv
+# Лог очистки 
+!data/processed/cleaning_log.txt
+
+*.csv
+!data/tableau/*.csv
+
+*.twbr
+*.twb~
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+.DS_Store
