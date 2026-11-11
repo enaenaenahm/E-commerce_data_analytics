@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:16
+    container_name: ecommerce_pg
+    environment:
+      POSTGRES_USER: ${PG_USER:-analyst}
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-analyst_pwd}
+      POSTGRES_DB: ${PG_DB:-ecommerce}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER:-analyst} -d ${PG_DB:-ecommerce}"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  pgdata:
