@@ -1,5 +1,5 @@
 
-# E-commerce Data Analytics: Olist + PostgreSQL + Tableau
+# E-commerce Data Analytics
 
 Сквозной аналитический проект по данным бразильского маркетплейса Olist: от сырых CSV до интерактивного дашборда и бизнес-рекомендаций.
 
