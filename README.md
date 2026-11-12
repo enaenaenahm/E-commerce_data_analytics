@@ -50,7 +50,7 @@
 * **Q6:** Treemap и Scatter — Доли и характеристики RFM-сегментов.
 
 *(Скриншот дашборда находятся в папке `data/tableau/screenshots/`)*
-`![Общий вид](data/tableau/screenshots/dashboard_full.png)`
+![Общий вид](data/tableau/screenshots/dashboard_full.png)
 
 ## Главные инсайты и рекомендации
 
